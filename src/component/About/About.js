@@ -7,8 +7,7 @@ const About = () => {
       <div >
        <p className="about"> I'm Suman Saini, a web developer with a focus on creating websites that
         are user-friendly, minimalist, and visually appealing. I'm dedicated to
-        delivering designs that look great and are easy to use, while
-        maintaining a professional standard of quality. Additionally, as a
+        delivering designs that look great and are easy to use. Additionally, as a
         student on a learning journey, I'm constantly seeking to improve my
         skills.
         </p>
