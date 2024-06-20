@@ -5,6 +5,9 @@ import RadioButtonCheckedIcon from "@mui/icons-material/RadioButtonChecked";
 import PsychologyIcon from "@mui/icons-material/Psychology";
 import LooksOneIcon from "@mui/icons-material/LooksOne";
 import LooksTwoIcon from "@mui/icons-material/LooksTwo";
+import network from "./network.jpg"
+import java from "./java.jpg"
+import ehe from "./ehe.jpg"
 
 import React from "react";
 import "../Resume/Resume.css";
@@ -55,24 +58,34 @@ const Resume = () => {
           <RadioButtonCheckedIcon className="achievements-point3" />
         </div>
         <div className="achivements-right">
-          <h1 className="Achivements-Section">Achievement</h1>
+          <h1 className="Achivements-Section">Certificates</h1>
           <div className="achivement1">
-            <h1 >01 </h1>
-            <h3  className="ach-name">Name.... Disription</h3>
+            <h1 >Java  </h1>
+            <div className="certificate">
+            <img className="cert-img" src={java} alt="certificate" />
+          </div>
+            <h3  className="ach-name">Apna College</h3>
             <p className="ach-place"
-            >Place</p>
+            >March, 2024 - Online</p>
+          </div>
+
+
+          <div className="achivement1">
+            <h1>Network Security </h1>
+            <div className="certificate">
+            <img className="cert-img" src={network} alt="certificate" />
+          </div>
+            <h3  className="ach-name">Great Learning</h3>
+            <p className="ach-place">August, 2022 - Online</p>
           </div>
 
           <div className="achivement1">
-            <h1 >02 </h1>
-            <h3 className="ach-name">Name</h3>
-            <p className="ach-place">Place</p>
+            <h1 >Ethical Hacking Essential (EHE)</h1>
+            <div className="certificate">
+            <img className="cert-img ehe" src={ehe} alt="certificate" />
           </div>
-
-          <div className="achivement1">
-            <h1>03 </h1>
-            <h3  className="ach-name">Name</h3>
-            <p className="ach-place">Place</p>
+            <h3 className="ach-name">EC - Council (CoderRed)</h3>
+            <p className="ach-place">April, 2022 - Online</p>
           </div>
 
         </div>

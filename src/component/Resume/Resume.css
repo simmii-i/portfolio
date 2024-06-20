@@ -146,7 +146,7 @@
 
 .achivements-line {
     width: 2px;
-    height: 18rem;
+    height: 42.7rem;
     background-color: var(--line-color);
     position: absolute;
     top: 0;
@@ -167,21 +167,21 @@
     position: absolute;
     font-size: 1.5rem;
     color: var(--font-color-gold);
-    top: 3.5rem;
+    top: 4.5rem;
 }
 
 .achievements-point2{
     position: absolute;
     font-size: 1.5rem;
     color: var(--font-color-gold);
-    top: 10.1rem;
+    top: 23.5rem;
 }
 
 .achievements-point3{
     position: absolute;
     font-size: 1.5rem;
     color: var(--font-color-gold);
-    top: 17rem;
+    top: 42.6rem;
 }
 .achivements-right{
     display: flex;
@@ -195,16 +195,39 @@
 }
 .achivement1{
    line-height: 1.9rem;
+   margin-top: 1rem;
   
 
 }
 
 .achivement1 h1{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 500;
-    color: var(--font-color-gold);
+    color: var(--font-color-heading);
     
     margin-top: 17px;
+}
+
+.certificate
+  {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10px 10px 10px 0px;
+   background-color:var(--background-color-tertiary);
+   border: 2px solid var(--border-color);
+   border-radius: var(--radius-10);
+    height: 10rem;
+    width: 14rem;
+    padding: 2px;
+}
+.cert-img{
+    height: 9rem;
+    width: auto;
+    border-radius: var(--radius-10);
+}
+.ehe{
+    width: 12.6rem;
 }
 
 
@@ -217,7 +240,7 @@
 .ach-place{
     font-size: 1rem;
     font-weight: 400; 
-    color: var(--font-color-subheading);
+    color: var(--font-color-gold);
 } 
 .skill-percent {
     display: flex;
@@ -422,11 +445,7 @@
 }
 @media screen and (max-width: 530px) {
     .achivements-line {
-        height: 19rem;
-    }
-
-    .achievements-point3 {
-        top: 19rem
+        height: 44rem;
     }
 
     .education {
@@ -442,31 +461,13 @@
 
 
 
-@media screen and (max-width: 474px) {
+@media screen and (max-width: 483px) {
     .achivements-line {
-        height: 21rem;
+        height: 45rem;
     }
-
-    .achievements-point2 {
-        top: 12.3rem;
-    }
-
     .achievements-point3 {
-        top: 20.6rem
-    }
+        top: 44.4rem
+    } 
 
 }
 
-@media screen and (max-width: 482px) {
-    .achivements-line {
-        height: 21rem;
-    }
-
-    .achievements-point2 {
-        top: 12.5rem;
-    }
-
-    .achievements-point3 {
-        top: 20.8rem
-    }
-}

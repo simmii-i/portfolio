@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import "./Home.css";
+import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
+import PhoneAndroidOutlinedIcon from "@mui/icons-material/PhoneAndroidOutlined";
+import FmdGoodOutlinedIcon from "@mui/icons-material/FmdGoodOutlined";
+
 import EmailIcon from "@mui/icons-material/Email";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -54,11 +58,14 @@ const [smallScreen, setSmallScreen] = useState(false);
           <div className="image">
             <img src="./heroImage.png" alt="home" />
           </div>
+          <div className="left-content">
           <h1 className="name">Suman Saini</h1>
           <div className="title">
             <p>Web Developer</p>
           </div>
           <div className="line"></div>
+          </div>
+         
           <div className="main">
             <div className="email">
               <div className="emailIcon">
@@ -86,11 +93,70 @@ const [smallScreen, setSmallScreen] = useState(false);
             </div>
           </div>
            
-          <button className="small-screen-btn"
+          { <button className="small-screen-btn"
           onClick={()=>setSmallScreen(!smallScreen)}
           >
             {smallScreen ? <MenuOpenIcon/> : <MenuOpen/> }
-          </button>
+          </button> }
+          {smallScreen ? (
+            <div className="small-screen-left">
+              <div className="sm-details">
+                <div className="sm-email sm-details-div">
+                  <EmailOutlinedIcon className="detail-icon" />
+                  <div className="sm-subdetails">
+                    <p>Email</p>
+                    <h5>suman.lappii@gmailm.com</h5>
+                  </div>
+                </div>
+                
+                <div className="sm-location sm-details-div">
+                  <FmdGoodOutlinedIcon className="detail-icon" />
+                  <div className="sm-subdetails">
+                    <p>Location</p>
+                    <h5>Rewari, Haryana, India</h5>
+                  </div>
+                </div>
+              </div>
+              <span className="sm-socials">
+                <a href="https://www.linkedin.com/in/suman-saini-835130223/" target="_blank" rel="noopener noreferrer">
+                  <LinkedInIcon className="social-icon" /> LinkedIn
+                </a>
+
+                <a href="https://github.com/simmii-i" target="_blank" rel="noopener noreferrer">
+                  <GitHubIcon className="social-icon" /> GitHub
+                </a>
+              </span>
+
+              { <span className="smm-socials">
+                <a href="https://www.linkedin.com/in/suman-saini-835130223/" target="_blank" rel="noopener noreferrer">
+                  <LinkedInIcon style={{ fontSize: 30 }} />
+                </a>
+
+                <a href="https://github.com/simmii-i" target="_blank" rel="noopener noreferrer">
+                  <GitHubIcon style={{ fontSize: 30 }} />
+                </a>
+              </span> }
+            </div>
+          ) : (
+            <div className="small-screen-userInfo">
+              <div className="sm-Image">
+                <img
+                
+                  src="/heroImage.png"
+                  alt="My Avatar"
+                //  style={{ width:"150px",
+                //   height:"200"}}
+                  
+                />
+              </div>
+
+              <div className="sm-userInfo">
+                <h1>Suamn Saini</h1>
+                <p> Web Developer</p>
+              </div>
+            </div>
+          )}
+
           
           <div className="resources">
             
