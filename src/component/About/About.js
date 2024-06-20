@@ -4,15 +4,14 @@ import "../About/About.css";
 const About = () => {
   return (
     <>
-      <div
-        style={{ color: "gray-700", fontSize: "1.2rem", marginBottom: "2rem" }}
-      >
-        I'm Suman Saini, a web developer with a focus on creating websites that
+      <div >
+       <p className="about"> I'm Suman Saini, a web developer with a focus on creating websites that
         are user-friendly, minimalist, and visually appealing. I'm dedicated to
         delivering designs that look great and are easy to use, while
         maintaining a professional standard of quality. Additionally, as a
         student on a learning journey, I'm constantly seeking to improve my
         skills.
+        </p>
       </div>
       <h1 className="work">What I'm Doing</h1>
       <div className="skills-main">

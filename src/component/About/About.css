@@ -5,7 +5,12 @@
         color: var(--font-color-heading);
     margin: 1.5rem;
 }
-
+.about{
+        font-size: 0.9rem;
+        line-height: 1rem;
+        margin-bottom: 2rem;
+        color:  var(--font-color-subheading);
+}
 .skills-main{
     display: flex;
     flex-direction: column;
