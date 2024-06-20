@@ -151,7 +151,7 @@ const [smallScreen, setSmallScreen] = useState(false);
               </div>
 
               <div className="sm-userInfo">
-                <h1>Suamn Saini</h1>
+                <h1>Suman Saini</h1>
                 <p> Web Developer</p>
               </div>
             </div>
