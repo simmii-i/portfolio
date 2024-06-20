@@ -141,7 +141,7 @@ const [smallScreen, setSmallScreen] = useState(false);
             <div className="small-screen-userInfo">
               <div className="sm-Image">
                 <img
-                
+                  className="sm-img"
                   src="/heroImage.png"
                   alt="My Avatar"
                 //  style={{ width:"150px",
@@ -191,14 +191,14 @@ const [smallScreen, setSmallScreen] = useState(false);
       </div>
 
       <div className="homeright">
-        <div className="right-mask"></div>
+       
         <div className="subright-main">
           <div className="header">
            {activeComponent === "about" && <h1>About</h1>} 
            {activeComponent === "resume" && <h1>Resume</h1>} 
            {activeComponent === "projects" && <h1>Projects</h1>} 
            {activeComponent === "contact" && <h1>Contact</h1>} 
-            
+           <div className="header-mask"></div>
             <div className="header-details">
 
               <h2 className={activeComponent=== "about" ? "btn-active" : "btn-normal"} onClick={()=> changeComponent("about")}>About </h2>
@@ -207,6 +207,7 @@ const [smallScreen, setSmallScreen] = useState(false);
               <h2 className={activeComponent=== "contact" ? "btn-active" : "btn-normal"} onClick={()=> changeComponent("contact")}>Contact </h2>
 
             </div>
+           
           </div>
           <div className={`content ${transitionClass}`}>
             {activeComponent=== "about" && <About />}
