@@ -13,7 +13,7 @@ const sendEmail = (e)=>{
         e.preventDefault();
 
         if(form.current) {
-          emailjs.sendForm().then(
+          emailjs.sendForm('service_4gl94kq','template_u8523u4',form.current, 'SjyQyJtOmG5wqRVLw').then(
             (result)=> {
               console.log('SUCCESS!', result.text);
             },
