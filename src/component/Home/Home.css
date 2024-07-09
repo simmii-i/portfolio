@@ -239,8 +239,9 @@
     flex-direction: column;
 }
 .emailContent h4{
+     padding-top: 3px;
     font-weight: 550;
-    color: var(--font-color-heading);
+    color: var(--font-color-subheading);
 }
 .emailIcon 
 {

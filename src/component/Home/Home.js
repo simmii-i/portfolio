@@ -1,11 +1,14 @@
 import React, { useState } from "react";
 import "./Home.css";
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
-import PhoneAndroidOutlinedIcon from "@mui/icons-material/PhoneAndroidOutlined";
 import FmdGoodOutlinedIcon from "@mui/icons-material/FmdGoodOutlined";
 
+
 import EmailIcon from "@mui/icons-material/Email";
+import  GTranslate from "@mui/icons-material/GTranslate";
+
 import LocationOnIcon from "@mui/icons-material/LocationOn";
+
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import About from "../About/About";
@@ -61,7 +64,7 @@ const [smallScreen, setSmallScreen] = useState(false);
           <div className="left-content">
           <h1 className="name">Suman Saini</h1>
           <div className="title">
-            <p>Web Developer</p>
+            <p>Web Developer </p>
           </div>
           <div className="line"></div>
           </div>
@@ -90,6 +93,20 @@ const [smallScreen, setSmallScreen] = useState(false);
 
                 <h4>Rewari, Haryana, India</h4>
               </div>
+              
+            </div>
+            <div className="email">
+              <div className="emailIcon">
+                {" "}
+               <GTranslate/>
+              </div>
+
+              <div className="emailContent">
+                <p>Language </p>
+
+                <h4>English, Hindi, Haryanvi</h4>
+              </div>
+              
             </div>
           </div>
            
@@ -114,6 +131,14 @@ const [smallScreen, setSmallScreen] = useState(false);
                   <div className="sm-subdetails">
                     <p>Location</p>
                     <h5>Rewari, Haryana, India</h5>
+                  </div>
+                </div>
+
+                <div className="sm-location sm-details-div">
+                  <FmdGoodOutlinedIcon className="detail-icon" />
+                  <div className="sm-subdetails">
+                    <p>Language</p>
+                    <h5>English, Hindi, Haryanvi</h5>
                   </div>
                 </div>
               </div>
