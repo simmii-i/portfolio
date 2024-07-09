@@ -84,15 +84,15 @@ const About = () => {
           <h1>React Js</h1>
         </div>
 
-        <div className="tech-details">
+        {/* <div className="tech-details">
           <img src="/nextjs.png" alt="nextjs" />
           <h1>Next Js</h1>
-        </div>
+        </div> */}
 
-        <div className="tech-details">
+        {/* <div className="tech-details">
           <img src="/typescript.png" alt="typescript" />
           <h1>TypeScript</h1>
-        </div>
+        </div> */}
 
         <div className="tech-details">
           <img src="/git.png" alt="git" />

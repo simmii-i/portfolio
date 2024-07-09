@@ -84,13 +84,13 @@ const Projects = () => {
               </div>
 
              
-              <div className="project-box" onClick={() => showProject("Notes")}>
+              {/* <div className="project-box" onClick={() => showProject("Notes")}>
                 <div className="img-div">
                   <img className="img-p" src={Notes1} alt="Google notes" />
                 </div>
                 <h1 className="h1"> Google Keep Notes </h1>
                 <p className="p"> HTML, CSS, javascript</p>
-              </div>
+              </div> */}
 
               <div
                 className="project-box"

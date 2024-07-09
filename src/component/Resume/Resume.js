@@ -1,10 +1,7 @@
-import Diversity1Icon from "@mui/icons-material/Diversity2";
 import SchoolIcon from "@mui/icons-material/School";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import RadioButtonCheckedIcon from "@mui/icons-material/RadioButtonChecked";
 import PsychologyIcon from "@mui/icons-material/Psychology";
-import LooksOneIcon from "@mui/icons-material/LooksOne";
-import LooksTwoIcon from "@mui/icons-material/LooksTwo";
 import network from "./network.jpg"
 import java from "./java.jpg"
 import ehe from "./ehe.jpg"
@@ -80,12 +77,12 @@ const Resume = () => {
           </div>
 
           <div className="achivement1">
-            <h1 >Ethical Hacking Essential (EHE)</h1>
-            <div className="certificate">
-            <img className="cert-img ehe" src={ehe} alt="certificate" />
-          </div>
-            <h3 className="ach-name">EC - Council (CoderRed)</h3>
-            <p className="ach-place">April, 2022 - Online</p>
+             <h1 >Soon...🎯 {/*Ethical Hacking Essential (EHE)  */}</h1>
+            {/* <div className="certificate">
+            <img className="cert-img ehe" src={ehe} alt="certificate" /> */}
+          {/* </div> */}
+            {/* <h3 className="ach-name">EC - Council (CoderRed)</h3>
+            <p className="ach-place">April, 2022 - Online</p> */}
           </div>
 
         </div>
@@ -109,20 +106,20 @@ const Resume = () => {
             <div className="js"></div>
           </div>
 
-          <div className="skill-Section">
+          {/* <div className="skill-Section">
             <h1 className="skill-name"> <b>TypeScript</b> 78% </h1>
             <div className="ts"></div>
-          </div>
+          </div> */}
 
           <div className="skill-Section">
             <h1 className="skill-name"> <b>React Js</b> 90% </h1>
             <div className="react"></div>
           </div>
 
-          <div className="skill-Section">
+          {/* <div className="skill-Section">
             <h1 className="skill-name"> <b>Next Js</b> 7% </h1>
             <div className="next"></div>
-          </div>
+          </div> */}
       </div>
     </>
   );
